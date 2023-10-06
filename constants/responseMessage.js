@@ -15,7 +15,7 @@ module.exports = {
     LOGIN_SUCCESS: '로그인 성공',
     LOGIN_FAIL: '로그인 실패',
     NO_USER: '존재하지 않는 회원입니다.',
-    MISS_MATCH_PW: '비밀번호가 맞지 않습니다.',
+    MISS_MATCH_PW: '비밀번호가 일치하지 않습니다.',
     INVALID_EMAIL: '이메일 형식을 확인해주세요.',
 
     // 권한
@@ -23,12 +23,13 @@ module.exports = {
     NEED_LOGIN: '단원만 열람 가능합니다.',
     NEED_AUTHORITY: '권한이 없습니다.',
 
-    // 로그아웃`
+    // 로그아웃
     LOGOUT_SUCCESS: '로그아웃 성공',
     LOGOUT_FAIL: '로그아웃 실패',
 
     // 파일 업로드
     ONLY_IMAGE_AVAILABLE: '이미지만 업로드 가능합니다',
+    ONLY_FILE_AVAILABLE: '파일만 업로드 가능합니다', 
 
     // 서버 내 오류
     INTERNAL_SERVER_ERROR: '서버 내 오류',
@@ -42,4 +43,12 @@ module.exports = {
     // 인증
     NO_AUTH_HEADER: 'Authorization 헤더가 없습니다.',
     NO_AUTH: '인증되지 않았습니다',
+
+    // 게시글 작성
+    BOARD_CREATE_SUCCESS: "게시글 작성 완료", 
+    BOARD_CREATE_FAIL: "게시글 작성 실패", 
+    BOARD_UPDATE_SUCCESS: "게시글 수정 완료", 
+    BOARD_UPDATE_FAIL: "게시글 수정 실패", 
+    BOARD_DELETE_SUCCESS: "게시글 삭제 완료", 
+    BOARD_DELETE_FAIL: "게시글 삭제 실패",
 };
