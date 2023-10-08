@@ -54,6 +54,8 @@ module.exports = {
 
     //출결
     ATTENDANCE_APPROVAL_FAIL: "출결 승인 실패",
-    ATTENDANCE_APPROVAL_SUCCESS: "출결 승인 완료"
+    ATTENDANCE_APPROVAL_SUCCESS: "출결 승인 완료",
+    ATTENDANCE_INQUIRY_FAIL: "출결 조회 실패",
+    ATTENDANCE_INQUIRY_SUCCESS: "출결 조회 성공"
 
 };
